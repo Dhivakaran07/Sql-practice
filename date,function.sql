@@ -28,7 +28,7 @@ SELECT * FROM employees  ;
 -- select curdate() as current;
 -- select date(now());
 -- select datediff(curdate(),"2021/02/21") as diffrence;
--- select date_add(curdate(),interval 1 month)
+select date_add(curdate(),interval 1 month)
 
 
 
