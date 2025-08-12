@@ -6,8 +6,8 @@
 -- select age from students having age>19;
 -- select * from students where  id in (2,3);
 select * from employees;
--- update employees set age=22 where emp_lastname="kumar"
--- now we see about the order by use distict key and case
+update employees set age=22 where emp_lastname="kumar"
+now we see about the order by use distict key and case
 
 SELECT * FROM employees  ;
 -- ORDER BY CASE emp_firstname
