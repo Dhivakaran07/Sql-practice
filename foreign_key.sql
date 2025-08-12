@@ -1,4 +1,4 @@
-use first;
+-- use first;
 create table foreign1(branch_id int primary key , role varchar(10),address varchar(10));
 insert into foreign1(branch_id,role,address) values 
 (1,'manager','nehru'),
