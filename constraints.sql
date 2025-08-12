@@ -4,7 +4,7 @@ insert into students (age,pan)values(10,"a12c");
 select * from students;
 --  remove constaint
 -- alter table students drop check students_chk_1;
--- select * from students;
+select * from students;
 update students set age=20 where age=19;
 ALTER TABLE students
 ADD CONSTRAINT age CHECK (age > 19);
